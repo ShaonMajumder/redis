@@ -278,3 +278,18 @@ REDIS_PASSWORD=password
 REDIS_CLIENT=predis
 ```
 
+### build ui for demo
+```bash
+composer require laravel/ui
+```
+
+### material dashboard
+```bash
+composer require laravel-frontend-presets/material-dashboard
+```
+
+### Install material preset
+```bash
+php artisan ui material
+```
+
